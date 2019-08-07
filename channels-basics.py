@@ -2,8 +2,8 @@ port cv2
 from matplotlib import pyplot as plt
 
 # images loaded using open cv2 and showed using matplotlib
-bgr_img1 = cv2.imread('../lena.png')
-bgr_img2 = cv2.imread('../northcap.png')
+bgr_img1 = cv2.imread('./lena.png')
+bgr_img2 = cv2.imread('./northcap.png')
 
 # images shown by mathplotlib
 plt.imshow(bgr_img1, )
