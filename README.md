@@ -1,4 +1,6 @@
-## Basic Examples of image and video processing for multimedia streaming
+## Basic Examples of image and video processing
+
+Basic knowledge and techniques aimed for multimedia streaming
 
 ### libraries used:
 python3, numpy, opencv, mathplotlib, pil (pillow), FFMpeg, FFProbe, 
@@ -9,9 +11,7 @@ python3, numpy, opencv, mathplotlib, pil (pillow), FFMpeg, FFProbe,
 1. histogram
 1. entropy
 1. filters, convolution, quantization
-1. fft
-1. Haar transform
-1. compression
+1. compression: fft, Haar transform
 1. quality metrics (PSNR, SSIM)
 1. motion vectors
 1. Variable Bitrate Encoding (VBR)
