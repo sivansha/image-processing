@@ -17,3 +17,7 @@ python3, numpy, opencv, mathplotlib, pil (pillow), FFMpeg, FFProbe,
 1. Variable Bitrate Encoding (VBR)
 1. Constant Bitrate Encoding (CBR).
 1. Spatial and temporal information of videos
+
+### resources
+The video used in the code can be found here:
+[big buck bunny](https://peach.blender.org/download/)
