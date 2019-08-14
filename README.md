@@ -1,6 +1,8 @@
-## Basic Examples of image and video processing
+## basics of image and video processing for streaming
 
-Basic knowledge and techniques aimed for multimedia streaming
+This repository gives examples for image and video processing knowledge and techniques aimed ultimately for video streaming.
+It cover basic image processing concepts such as measuring image quality after compression, and other subjects that are helpfull when streaming video.
+Together with the [HAS simulation](https://gitlab.com/sivshani/has-simulation) repository it provides all the required basic knowledge and tools for advanced adaptable video streaming system.
 
 ### libraries used:
 python3, numpy, opencv, mathplotlib, pil (pillow), FFMpeg, FFProbe, 
