@@ -73,5 +73,3 @@ for i, ax in enumerate(axes.flat):
     k += 1
 
 plt.show()
-
-

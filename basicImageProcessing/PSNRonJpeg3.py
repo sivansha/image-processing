@@ -18,11 +18,7 @@ def main():
 
         for optimize in [True, False]:
             for i in range(100,0,-10):
-                filename = b"../images/q5/q5_d_time_quailty_compare.jpeg"
-                #if optimize:
-                #    filename = b"timeit/"+img+b"_quality_"+bytes(str(i), "ascii")+b"_optimized.jpeg"
-                #else:
-                #    filename = b"timeit/"+img+b"_quality_"+bytes(str(i), "ascii")+b".jpeg"
+                filename = b"./images/time_quailty_compare.jpeg"
                 t = Timer(lambda: save_file(img_YCbCr, filename, i, optimize))
                 time = t.timeit(number=rounds)
                 size = os.path.getsize(filename)

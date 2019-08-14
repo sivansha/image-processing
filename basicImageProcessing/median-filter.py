@@ -20,4 +20,4 @@ for i, n in enumerate(range(100, 101)):
     numpy_horizontal = np.hstack((y_img_as_array, y_img_convoluted))
     cv2.imshow("mean convolution n=" + str(n), numpy_horizontal)
     cv2.waitKey(0)
-    cv2.imwrite("../images/q3/q3_b_n=" + str(n) + '.png', numpy_horizontal)
+    cv2.imwrite("./images/=" + str(n) + '.png', numpy_horizontal)
