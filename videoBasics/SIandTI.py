@@ -31,7 +31,6 @@ from matplotlib import pyplot as plt
 Y, Cb, Cr = 0, 1, 2
 path = "..\images\\frames\\"
 
-
 def video2frames(command):
     """
     extracts the frames from the video

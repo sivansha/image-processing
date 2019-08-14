@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*
-
 from PIL import Image
 import numpy as np
 from scipy import ndimage
@@ -9,7 +6,7 @@ from matplotlib import pyplot as plt
 Y, Cb, Cr = 0, 1, 2
 
 # load image
-yuv_frame = Image.open("./output-161.png").convert("YCbCr")
+yuv_frame = Image.open("./video-frame.png").convert("YCbCr")
 
 # creates array from the image
 frame_asArray = np.array(yuv_frame)
@@ -35,5 +32,5 @@ plt.title('Y channel of Frame'), plt.xticks([]), plt.yticks([])
 plt.subplot(1, 3, 3), plt.imshow(sobel_frame, cmap = 'gray')
 plt.title('Sobel filtered Y channel of Frame'), plt.xticks([]), plt.yticks([])
 
-plt.savefig("./q1_b-c-scipy.png")
+plt.savefig("./processed-frame.png")
 plt.show()
