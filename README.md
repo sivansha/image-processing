@@ -1,4 +1,4 @@
-## Basic Examples of image and video processing
+## basics of image and video processing for streaming
 
 Basic knowledge and techniques aimed for multimedia streaming
 
