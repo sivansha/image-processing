@@ -29,7 +29,7 @@ from scipy import ndimage
 from matplotlib import pyplot as plt
 
 Y, Cb, Cr = 0, 1, 2
-path = "..\images\\frames\\"
+path = ".\images\\frames\\"
 
 def video2frames(command):
     """
@@ -123,9 +123,9 @@ def computeTI(raw_video, video_size, bitrate, pixel_format):
     return frames_sd
 ###############################################################################
 
-si = computeSI("../images/big_buck_bunny.yuv", "704x480", '24', "yuv420p")
+si = computeSI("./images/big_buck_bunny.yuv", "704x480", '24', "yuv420p")
 print(si)
-ti = computeTI("../images/big_buck_bunny.yuv", "704x480", '24', "yuv420p")
+ti = computeTI("./images/big_buck_bunny.yuv", "704x480", '24', "yuv420p")
 print(ti)
 
 # visualize the results Spatial and temporal information
